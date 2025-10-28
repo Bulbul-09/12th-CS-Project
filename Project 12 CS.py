@@ -2,7 +2,7 @@ import pymysql as mc
 from pymysql import Error
 
 # ==================== DATABASE CONNECTION ====================
-mydb=mc.connect(host="localhost",user="root",password="$elecT27")
+mydb=mc.connect(host="localhost",user="root",password="Admin@123")
 mycursor=mydb.cursor()
 rec1=[]
 rec2=[]
@@ -1463,4 +1463,5 @@ def main():
 
 # ==================== PROGRAM START ====================
 if __name__ == "__main__":
+
     main()
